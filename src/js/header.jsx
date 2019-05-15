@@ -36,8 +36,6 @@ export default class Header extends React.Component {
       });
   }
 
-  // test
-
   render() {
     // console.log(this.state);
     const { siteData } = this.state;

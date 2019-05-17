@@ -2,6 +2,8 @@ import React from 'react';
 import axios from 'axios';
 import logo from '../img/company_logo.png';
 import '../css/header.scss';
+import getTextData from './getTextData';
+
 
 const NumberList = (props) => {
   console.log(props.value);

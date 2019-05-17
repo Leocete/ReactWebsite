@@ -1,0 +1,3 @@
+1. We can store our JSON object in Redux state;
+
+2. Can create the property: "lang: en/nl", and when we will be calling text, it will be smth like: data.bla.bla[lang].text

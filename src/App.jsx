@@ -2,12 +2,17 @@ import React from 'react';
 import './App.css';
 import Header from './js/header';
 
-function App() {
-  return (
-    <React.Fragment>
-      <Header />
-    </React.Fragment>
-  );
-}
+export default class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {};
+  }
 
-export default App;
+  render() {
+    return (
+      <React.Fragment>
+        <Header />
+      </React.Fragment>
+    );
+  }
+}
